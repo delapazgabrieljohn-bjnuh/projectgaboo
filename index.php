@@ -305,7 +305,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <h2 class="fw-bold mb-3">About the Curator</h2>
                     <p class="lead text-danger fw-semibold">Web Developer & Video Curator</p>
                     <p class="text-muted">
-                        Hello! I am an Information Technology student who enjoys collecting Filipino memes and clips that capture our internet culture.
+                        Hello! I am Gabriel John T. Dela Paz, an IT student who enjoys collecting memes and clips that capture our internet culture.
                     </p>
                     <p class="text-muted">
                         Every video featured here is part of my personal selection of Filipino memes and clips, organized month by month.
