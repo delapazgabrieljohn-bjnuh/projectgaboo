@@ -41,9 +41,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My 2026 TikTok Meme Archive | Personal Video Collection</title>
-    <!-- Bootstrap 5 CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <style>
         :root {
@@ -299,7 +298,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="container">
             <div class="row align-items-center g-5">
                 <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/600x400/000000/ffffff?text=TikTok+Archive+Developer" class="img-fluid rounded-3 shadow" alt="Developer Workstation">
+                    <img src="assets/2x2%20pic%20white%20background%20(1).jpg" class="img-fluid rounded-3 shadow" alt="Portrait of Gabriel John T. Dela Paz">
                 </div>
                 <div class="col-lg-6">
                     <h2 class="fw-bold mb-3">About the Curator</h2>
