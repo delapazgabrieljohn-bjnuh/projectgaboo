@@ -229,7 +229,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ],
                 "April 2026" => [
                     ["title" => "Gooding", "desc" => "A meme take on the 'Bading o Lalaki' Gooding version.", "badge" => "Meme", "video_url" => "https://www.tiktok.com/@arknox.official/video/7629247963381927176", "cover" => "assets/april-meme-1-cover.jpg"],
-                    ["title" => "Goodness Gracious", "desc" => "Goodness gracious ka talaga, Girly!", "badge" => "GGBT", "video_url" => "https://www.tiktok.com/@abscbnpr/video/7620644574280666388", "cover" => "assets/april-meme-2-cover.jpg"],
+                    ["title" => "Goodness Gracious", "desc" => "Goodness gracious ka talaga, Girly!", "badge" => "GBBT", "video_url" => "https://www.tiktok.com/@abscbnpr/video/7620644574280666388", "cover" => "assets/april-meme-2-cover.jpg"],
                     ["title" => "Batangina Song", "desc" => "The full song from Batang Ina Jean. So proud of you, Jean!", "badge" => "Meme", "video_url" => "https://www.tiktok.com/@cutemayei/video/7622217099024305415", "cover" => "assets/july-meme-3-cover.jpg"]
                 ],
                 "May 2026" => [
