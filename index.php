@@ -46,6 +46,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <style>
+        :root {
+            --tiktok-black: #010101;
+            --tiktok-pink: #FE2C55;
+            --tiktok-cyan: #25F4EE;
+            --bs-dark: var(--tiktok-black);
+            --bs-dark-rgb: 1, 1, 1;
+            --bs-danger: var(--tiktok-pink);
+            --bs-danger-rgb: 254, 44, 85;
+        }
         html {
             scroll-behavior: smooth;
         }
@@ -54,11 +63,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         .hero-section {
             padding: 120px 0 80px 0;
-            background: linear-gradient(135deg, #000000 0%, #111827 100%);
+            background: var(--tiktok-black);
+            border-bottom: 3px solid var(--tiktok-pink);
+            box-shadow: 0 3px 0 var(--tiktok-cyan);
         }
         .month-header {
-            border-left: 5px solid #fe2c55;
+            border-left: 5px solid var(--tiktok-cyan);
             padding-left: 15px;
+        }
+        .navbar-brand .bi-tiktok {
+            color: var(--tiktok-cyan);
+        }
+        .btn-danger {
+            --bs-btn-bg: var(--tiktok-pink);
+            --bs-btn-border-color: var(--tiktok-pink);
+            --bs-btn-hover-color: var(--tiktok-black);
+            --bs-btn-hover-bg: var(--tiktok-cyan);
+            --bs-btn-hover-border-color: var(--tiktok-cyan);
+            --bs-btn-active-color: var(--tiktok-black);
+            --bs-btn-active-bg: var(--tiktok-cyan);
+            --bs-btn-active-border-color: var(--tiktok-cyan);
+        }
+        .btn-outline-danger {
+            --bs-btn-color: var(--tiktok-pink);
+            --bs-btn-border-color: var(--tiktok-pink);
+            --bs-btn-hover-color: var(--tiktok-black);
+            --bs-btn-hover-bg: var(--tiktok-cyan);
+            --bs-btn-hover-border-color: var(--tiktok-cyan);
+            --bs-btn-active-color: var(--tiktok-black);
+            --bs-btn-active-bg: var(--tiktok-cyan);
+            --bs-btn-active-border-color: var(--tiktok-cyan);
         }
         .clip-video-frame {
             aspect-ratio: 9 / 16;
@@ -91,13 +125,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             top: 50%;
             transform: translate(-50%, -50%);
             width: 64px;
+            box-shadow: 3px 3px 0 var(--tiktok-cyan), -3px -3px 0 var(--tiktok-pink);
         }
         .clip-card {
             transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
         .clip-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15), 3px 3px 0 var(--tiktok-cyan), -3px -3px 0 var(--tiktok-pink) !important;
         }
     </style>
 </head>
