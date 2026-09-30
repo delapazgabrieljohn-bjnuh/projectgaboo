@@ -336,7 +336,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <label for="fullname" class="form-label fw-semibold">Full Name</label>
-                                <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Gabriel Dela Paz" required>
+                                <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required>
                             </div>
                             <div class="col-md-6">
                                 <label for="email" class="form-label fw-semibold">Email Address</label>
